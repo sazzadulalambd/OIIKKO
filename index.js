@@ -130,3 +130,45 @@ sections.forEach((sec) => {
 
 
 
+const translations = {
+    en: {
+        title: `If you prove your <span class="tw-text-primary">oiikko</span> through the app we may launch a web version`,
+        subtitle: "Stronger when united",
+        description: `Report nearby incidents to inform others. Get informed, respond quickly, and stay united.`,
+        buttonText: "বাংলা",
+    },
+    bn: {
+        title: `যদি আপনি অ্যাপের মাধ্যমে আপনার <span class="tw-text-primary">oiikko</span> প্রমাণ করতে পারেন, তবে আমরা একটি ওয়েব সংস্করণ চালু করতে পারি`,
+        subtitle: "একত্রিত হলে শক্তিশালী",
+        description: `অন্যদের জানাতে কাছাকাছি ঘটনা রিপোর্ট করুন। খবর পান, দ্রুত সাড়া দিন এবং একত্রিত থাকুন।`,
+        buttonText: "English",
+    }
+};
+
+
+let currentLang = "bn";
+
+document.getElementById("lang-toggle").addEventListener("click", () => {
+    currentLang = currentLang === "en" ? "bn" : "en";
+
+    document.getElementById("hero-title").innerHTML = translations[currentLang].title;
+    document.getElementById("hero-subtitle").innerText = translations[currentLang].subtitle;
+    document.getElementById("hero-description").innerHTML = translations[currentLang].description;
+    document.getElementById("lang-toggle").innerText = translations[currentLang].buttonText;
+});
+
+
+
+
+const audio = document.getElementById("bg-audio");
+const toggleBtn = document.getElementById("toggle-audio");
+
+toggleBtn.addEventListener("click", () => {
+    if (audio.paused) {
+        audio.play();
+        toggleBtn.textContent = "🔊";
+    } else {
+        audio.pause();
+        toggleBtn.textContent = "🔇";
+    }
+});
