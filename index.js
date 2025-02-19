@@ -134,13 +134,13 @@ const translations = {
     en: {
         title: `If you prove your <span class="tw-text-primary tw-uppercase">oiikko</span> through the app we may launch a web version`,
         // subtitle: "Stronger when united",
-        description: `Report nearby incidents to inform others. Get informed, respond quickly, and stay united.`,
+        description: `Report nearby incidents to inform others. Get informed, respond quickly, and stay united. <span class="tw-text-primary"> #oiikko</span>`,
         buttonText: "বাংলা",
     },
     bn: {
-        title: `আপনি যদি App এর মাধ্যমে <span class="tw-text-primary tw-uppercase">oiikko</span> প্রমাণ করতে পারেন, তবে আমরা Web সংস্করণ করবো।`,
+        title: `আপনি যদি App এর মাধ্যমে <span class="tw-text-primary tw-uppercase">oiikko</span> প্রমাণ করতে পারেন তবে আমরা Web সংস্করণ করবো`,
         // subtitle: "একত্রিত হলে শক্তিশালী",
-        description: `অন্যদের জানাতে কাছাকাছি ঘটনা রিপোর্ট করুন। খবর পান, দ্রুত সাড়া দিন এবং একত্রিত থাকুন।`,
+        description: `অন্যদের জানাতে কাছাকাছি ঘটনা রিপোর্ট করুন। খবর পান, দ্রুত সাড়া দিন এবং একত্রিত থাকুন। <span class="tw-text-primary"> #oiikko</span>`,
         buttonText: "English",
     }
 };
