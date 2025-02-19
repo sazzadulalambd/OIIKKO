@@ -138,7 +138,7 @@ const translations = {
         buttonText: "বাংলা",
     },
     bn: {
-        title: `যদি আপনি App মাধ্যমে আপনার <span class="tw-text-primary tw-uppercase">oiikko</span> প্রমাণ করতে পারেন, তবে আমরা Web সংস্করণ করবো।`,
+        title: `আপনি যদি App এর মাধ্যমে <span class="tw-text-primary tw-uppercase">oiikko</span> প্রমাণ করতে পারেন, তবে আমরা Web সংস্করণ করবো।`,
         // subtitle: "একত্রিত হলে শক্তিশালী",
         description: `অন্যদের জানাতে কাছাকাছি ঘটনা রিপোর্ট করুন। খবর পান, দ্রুত সাড়া দিন এবং একত্রিত থাকুন।`,
         buttonText: "English",

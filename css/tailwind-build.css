@@ -618,10 +618,6 @@ video {
   height: 2.5rem;
 }
 
-.tw-h-\[100\%\] {
-  height: 100%;
-}
-
 .tw-h-\[30px\] {
   height: 30px;
 }
@@ -638,12 +634,12 @@ video {
   height: 60px;
 }
 
-.tw-h-full {
-  height: 100%;
-}
-
 .tw-h-\[80\%\] {
   height: 80%;
+}
+
+.tw-h-full {
+  height: 100%;
 }
 
 .tw-max-h-\[580px\] {
@@ -666,10 +662,6 @@ video {
   width: 6rem;
 }
 
-.tw-w-\[100\%\] {
-  width: 100%;
-}
-
 .tw-w-\[30px\] {
   width: 30px;
 }
@@ -678,12 +670,12 @@ video {
   width: 50px;
 }
 
-.tw-w-full {
-  width: 100%;
-}
-
 .tw-w-\[80\%\] {
   width: 80%;
+}
+
+.tw-w-full {
+  width: 100%;
 }
 
 .tw-min-w-\[350px\] {
@@ -698,28 +690,16 @@ video {
   max-width: 150px;
 }
 
+.tw-max-w-\[35\%\] {
+  max-width: 35%;
+}
+
 .tw-max-w-\[450px\] {
   max-width: 450px;
 }
 
-.tw-max-w-\[50\%\] {
-  max-width: 50%;
-}
-
 .tw-max-w-\[650px\] {
   max-width: 650px;
-}
-
-.tw-max-w-\[40\%\] {
-  max-width: 40%;
-}
-
-.tw-max-w-\[30\%\] {
-  max-width: 30%;
-}
-
-.tw-max-w-\[35\%\] {
-  max-width: 35%;
 }
 
 .tw-flex-shrink-0 {
@@ -767,10 +747,6 @@ video {
   gap: 1rem;
 }
 
-.tw-gap-6 {
-  gap: 1.5rem;
-}
-
 .tw-space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
 }
@@ -811,7 +787,7 @@ video {
 
 .tw-bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(191 254 102 / var(--tw-bg-opacity, 1));
+  background-color: rgb(251 188 4 / var(--tw-bg-opacity, 1));
 }
 
 .tw-bg-secondary {
@@ -896,6 +872,14 @@ video {
   font-weight: 900;
 }
 
+.tw-font-medium {
+  font-weight: 500;
+}
+
+.tw-font-normal {
+  font-weight: 400;
+}
+
 .tw-font-semibold {
   font-weight: 600;
 }
@@ -918,10 +902,6 @@ video {
   line-height: 80px;
 }
 
-.tw-leading-\[60px\] {
-  line-height: 60px;
-}
-
 .tw-text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
@@ -929,7 +909,7 @@ video {
 
 .tw-text-primary {
   --tw-text-opacity: 1;
-  color: rgb(191 254 102 / var(--tw-text-opacity, 1));
+  color: rgb(251 188 4 / var(--tw-text-opacity, 1));
 }
 
 .tw-text-white {
@@ -971,7 +951,7 @@ video {
 
 .hover\:tw-text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(191 254 102 / var(--tw-text-opacity, 1));
+  color: rgb(251 188 4 / var(--tw-text-opacity, 1));
 }
 
 @media not all and (min-width: 1280px) {
@@ -985,17 +965,8 @@ video {
     position: fixed;
   }
 
-  .max-lg\:tw-h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .max-lg\:tw-h-\[320px\] {
     height: 320px;
-  }
-
-  .max-lg\:tw-max-h-\[320px\] {
-    max-height: 320px;
   }
 
   .max-lg\:tw-min-h-\[180px\] {
